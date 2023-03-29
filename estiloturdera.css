@@ -63,29 +63,73 @@ body{
 
 @media (max-width: 450px) {
     .buttons-data-div {
-      width: 100%;
+      width: 80%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       flex-wrap: nowrap;
   }
+  .rturdera {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin-left: 100px;
+
+}
   }
 
   @media (max-width: 750px) {
     .grid-container {
-      width: 100%;
+      width: 80%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       flex-wrap: nowrap;
   }
+  .rturdera {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    float: inline-start;
+}
+.buttons-data-div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
+  .css-selector {
+    background: linear-gradient(588deg, #030303, #fcff36, #224fc2, #000000, #747474, #ff0000);
+    background-size: 600% 900%;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-animation: AnimationName 6s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    z-index: auto;
+}
+.buttons {
+    font-family: bungee hairline;
+    font-size: 10px;
+    text-align: right;
+    padding: 15px 25px;
+    color: #ce8eb8dc;
+    background-color: transparent;
+    text-decoration: overline;
+    text-decoration-thickness: 30%;
+    text-decoration-color: #8ec1ce7c;
+    border: none;
+    
+}
+}
 
   @media (max-width: 650px) {
     .grid-container {
-      width: 100%;
+      width: 80%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -94,6 +138,16 @@ body{
   }
   }
 
+  @media (max-width: 375px) {
+    .grid-container {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: nowrap;
+  }
+  }
 
 p{
     font-family: bungee hairline;
